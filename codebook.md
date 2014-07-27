@@ -6,27 +6,27 @@ Note that the features taken from the UCI dataset have already bee normalized an
 For the summaryData data frame output in the tidyData.txt file:
 
 
-The subject variable:
+### The subject variable:
 
 Subject
 
 A variable encoding the test subject individual.  There are 30 test subjects, numbered 1 to 30.
 
 
-The activity variable:
+### The activity variable:
 
 Activity
 
 A factor variable indicating the activity the individual was engaged in.  The values are:
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
 
 
-The time variables:
+### The time variables:
 
 These measurements come from the accelerometer and gyroscope 3-axial raw signals for accelerometer and gyroscope in the x,y, and z directinos.  According to the information given with the UCI dataset, the time domain signals “were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.” The acceleration signal was separated into components due to body motion and gravitational acceleration by: “using another low pass Butterworth filter with a corner frequency of 0.3 Hz.”
 (Quotes from UCI Dataset “features_info.txt”, see footnote)
@@ -155,7 +155,7 @@ The standard deviation of the time domain magnitude of rotational jerk (derivati
 
 
 
-The frequency variables:
+### The frequency variables:
 
 The Fast Fourier Transform of the time domain gives frequency domain data.
 
@@ -249,7 +249,7 @@ The standard deviation of the frequency domain magnitude of rotational jerk (der
 
 
 
-This project makes use of:
+### This project makes use of:
 
 The UCI Machine Learning Repository's
 
