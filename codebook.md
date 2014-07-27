@@ -18,6 +18,7 @@ A variable encoding the test subject individual.  There are 30 test subjects, nu
 Activity
 
 A factor variable indicating the activity the individual was engaged in.  The values are:
+
 1. WALKING
 2. WALKING_UPSTAIRS
 3. WALKING_DOWNSTAIRS
