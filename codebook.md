@@ -29,7 +29,7 @@ A factor variable indicating the activity the individual was engaged in.  The va
 The time variables:
 
 These measurements come from the accelerometer and gyroscope 3-axial raw signals for accelerometer and gyroscope in the x,y, and z directinos.  According to the information given with the UCI dataset, the time domain signals “were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise.” The acceleration signal was separated into components due to body motion and gravitational acceleration by: “using another low pass Butterworth filter with a corner frequency of 0.3 Hz.”
-(Quotes from UCI Dataset “features_info.txt”)
+(Quotes from UCI Dataset “features_info.txt”, see footnote)
 
 Please note:  All of the following variables are *AVERAGES* of the described variables, for each subject and activity.
 
@@ -245,3 +245,23 @@ The standard deviation of the frequency domain magnitude of rotational jerk (der
 
 
 
+
+
+
+
+This project makes use of:
+
+The UCI Machine Learning Repository's
+
+Human Activity Recognition Using Smartphones Dataset
+Version 1.0
+
+created by:
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+at:
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Universit‡ degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+
+found here:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
